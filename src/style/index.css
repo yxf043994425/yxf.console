@@ -1,0 +1,19 @@
+#context {
+  width: 200px;
+  height: 100px;
+  /* background: #060606; */
+  /* color: #ffffff; */
+  font-size: 12px;
+}
+#context::after{
+  content: "";
+  height: 14px;
+  border-right: 1px solid #606060;
+  padding-left: 0px;
+  animation: blink 1s steps(1) infinite;
+}
+@keyframes blink{
+  50% {
+    border-color: transparent;
+  }
+}
