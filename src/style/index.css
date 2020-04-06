@@ -5,7 +5,7 @@
   /* color: #ffffff; */
   font-size: 12px;
 }
-#context::after{
+#current::after{
   content: "";
   height: 14px;
   border-right: 1px solid #606060;
