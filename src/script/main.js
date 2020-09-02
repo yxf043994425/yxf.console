@@ -53,6 +53,7 @@ function load() {
       case 20:
       case 91:
       case 92:
+      case 93:
         break;
       default:
         cache.push(e.key);
